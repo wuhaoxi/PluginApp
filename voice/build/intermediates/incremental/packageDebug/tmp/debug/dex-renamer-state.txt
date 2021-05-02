@@ -1,0 +1,4 @@
+#Sun May 02 16:05:39 CST 2021
+base.0=/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

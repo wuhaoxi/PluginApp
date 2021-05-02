@@ -1,14 +1,13 @@
 package com.wu.voice.application;
 
-import android.app.Application;
-
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.qihoo360.replugin.RePluginApplication;
 import com.wu.ft_audio.app.AudioHelper;
 import com.wu.lib_share.share.ShareManager;
 import com.wu.lib_update.app.UpdateHelper;
 import com.wu.lib_video.app.VideoHelper;
 
-public class VoiceApplication extends Application {
+public class VoiceApplication extends RePluginApplication {
 
     private static VoiceApplication mApplication = null;
 

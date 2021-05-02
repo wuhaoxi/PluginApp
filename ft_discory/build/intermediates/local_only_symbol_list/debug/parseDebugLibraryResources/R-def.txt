@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+id author_view
+id bottom_layout
+id image_view
+id loading_text
+id logo_view
+id message_view
+id middle_layout
+id name_view
+id pager
+id pager_indictor_view
+id play_layout
+id play_view
+id recyclerview
+id refresh_layout
+id text_view
+id time_view
+id title_view
+id zan_view
+layout default_loading
+layout fragment_discory_layout
+layout item_discory_head_banner_layout
+layout item_discory_head_function_layout
+layout item_discory_head_recommand_layout
+layout item_discory_head_recommand_recycler_layout
+layout item_discory_list_ad_layout
+layout item_discory_list_picture_layout
+layout item_discory_list_video_layout
+string app_name

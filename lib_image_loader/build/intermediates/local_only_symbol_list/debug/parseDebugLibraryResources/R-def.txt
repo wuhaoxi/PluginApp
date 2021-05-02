@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+mipmap b4y
+string app_name

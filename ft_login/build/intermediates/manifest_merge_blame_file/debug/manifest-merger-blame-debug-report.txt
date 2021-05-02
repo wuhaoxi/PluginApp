@@ -1,0 +1,27 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wu.ft_login"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/src/main/AndroidManifest.xml:4:5-10:19
+12        android:allowBackup="true"
+12-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/src/main/AndroidManifest.xml:5:9-35
+13        android:label="@string/app_name" >
+13-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/src/main/AndroidManifest.xml:6:9-41
+14        <activity
+14-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/src/main/AndroidManifest.xml:7:9-9:52
+15            android:name="com.wu.ft_login.LoginActivity"
+15-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/src/main/AndroidManifest.xml:8:13-42
+16            android:screenOrientation="portrait" />
+16-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/src/main/AndroidManifest.xml:9:13-49
+17    </application>
+18
+19</manifest>

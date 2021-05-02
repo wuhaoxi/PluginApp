@@ -1,0 +1,1080 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/8b8f0a4b6db05849011f6e22b57060a6/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [:lib_network] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_network/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:lib_image_loader] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_image_loader/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:ft_mine] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_mine/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:lib_common_ui] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_common_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/981c14c8db0e20e805fd52514cc2d99b/jetified-MagicIndicator-1.5.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/3dd20f2dbf3f9f5dc0bb1cb721b91f12/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2195a09ceac911b4646f15a1033fff63/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/604676e4df2d02e4576bed0c0a2d2e45/rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.alibaba:arouter-api:1.5.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/9ae8aea696f3a22d497ef3ac733d1ea6/jetified-arouter-api-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-27:12
+MERGED from [:lib_webview] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_webview/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-50:12
+MERGED from [:lib_video] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_video/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-31:12
+MERGED from [:lib_base] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_base/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:lib_update] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_update/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:ft_login] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-33:12
+MERGED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-24:12
+MERGED from [:ft_discory] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_discory/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:ft_friend] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_friend/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:17:1-223:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c3b12b7a22ca26094f585300cc314e71/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/1668c3f189608365a9705213c46808e3/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c8ed0b3a775fffde67ab95486318121/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/0540cf375e1ccce3ecbaa047580196c1/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/f4b1eb06ec7d74d904e69d5bd261fb73/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/a53987d312c4bebcf16c41f465e2c80c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c866b20067a03a4c2b90cde786251083/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c106499bb9b42b4061aa80914515d840/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/30c343d0f3391efb1cb3ade4007d631e/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/cf2793f850f4a95b3e02be87a9663e11/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c4e5de603044cca1d2367c4556d59c02/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/4901daaf461764a187abb32d5aa66576/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/ec60d98c7ace698f64716f8d0462a852/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/ea4598447d2f5ca7a1283caa2af4690c/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/149b5c055e7dd170d90d7c3ba97bb17e/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/dfe3a458149428d2f0b7cb55590b4d04/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/238b2a8d719c037fd475a97fd4d8370d/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/4cbc835636885eb606f9708943d69d5d/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/9314a1488fc0e873112abff834ae49be/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/349f70c98864ab513a9e18a4e2bd0b2d/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/49e8b4349b445560cecf2a7240263bf9/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/55b66cb3b6bca9b0446e298ee83d6d0b/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/89c96752da8c8256df4a3b3bfca4acf3/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/14862c6672d57c04c1471fff18f21162/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/a8b3184e07265da8fe143213857f7c0c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/ca1413a93e989c538011872097aef666/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/405ad4678e259f23599d81790fb1ecfd/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/5096fa5064bfccbe95ccc85f5c55043d/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/af2aad65bda31fb9c430486de807fb35/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/248552c9cc227f65445f0234d9388a6e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/a2801d83a4d643e2229d3f1dc0315a92/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:3:5-27
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:lib_network] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_network/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:lib_network] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_network/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:lib_video] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_video/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:lib_video] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_video/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:6:5-79
+MERGED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-79
+MERGED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-79
+MERGED from [:lib_video] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_video/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:lib_video] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_video/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:10:5-83
+MERGED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-83
+MERGED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:10:22-80
+application
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:12:5-19:42
+MERGED from [com.google.android.material:material:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/8b8f0a4b6db05849011f6e22b57060a6/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/8b8f0a4b6db05849011f6e22b57060a6/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-19:19
+MERGED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-19:19
+MERGED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-25:19
+MERGED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-25:19
+MERGED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-48:19
+MERGED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-48:19
+MERGED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-29:19
+MERGED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-29:19
+MERGED from [:ft_login] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:ft_login] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-31:19
+MERGED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-31:19
+MERGED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-22:19
+MERGED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-22:19
+MERGED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:26:5-221:19
+MERGED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:26:5-221:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/1668c3f189608365a9705213c46808e3/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/1668c3f189608365a9705213c46808e3/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/4cbc835636885eb606f9708943d69d5d/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/4cbc835636885eb606f9708943d69d5d/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/9314a1488fc0e873112abff834ae49be/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/9314a1488fc0e873112abff834ae49be/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/405ad4678e259f23599d81790fb1ecfd/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/405ad4678e259f23599d81790fb1ecfd/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/4cbc835636885eb606f9708943d69d5d/core-1.0.1/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:19:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:17:9-69
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml:13:9-65
+uses-sdk
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/8b8f0a4b6db05849011f6e22b57060a6/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/8b8f0a4b6db05849011f6e22b57060a6/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:lib_network] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_network/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_network] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_network/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_image_loader] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_image_loader/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_image_loader] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_image_loader/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_mine] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_mine/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_mine] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_mine/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_common_ui] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_common_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_common_ui] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_common_ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/981c14c8db0e20e805fd52514cc2d99b/jetified-MagicIndicator-1.5.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/981c14c8db0e20e805fd52514cc2d99b/jetified-MagicIndicator-1.5.0/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/3dd20f2dbf3f9f5dc0bb1cb721b91f12/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/3dd20f2dbf3f9f5dc0bb1cb721b91f12/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2195a09ceac911b4646f15a1033fff63/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2195a09ceac911b4646f15a1033fff63/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/604676e4df2d02e4576bed0c0a2d2e45/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/604676e4df2d02e4576bed0c0a2d2e45/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.alibaba:arouter-api:1.5.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/9ae8aea696f3a22d497ef3ac733d1ea6/jetified-arouter-api-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.alibaba:arouter-api:1.5.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/9ae8aea696f3a22d497ef3ac733d1ea6/jetified-arouter-api-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_webview] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_webview/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_webview] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_webview/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_video] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_video/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_video] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_video/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_base] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_base/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_base] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_base/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_update] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_update/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_update] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_update/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_login] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_login] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_discory] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_discory/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_discory] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_discory/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_friend] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_friend/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ft_friend] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_friend/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:22:5-24:41
+MERGED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c3b12b7a22ca26094f585300cc314e71/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c3b12b7a22ca26094f585300cc314e71/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/1668c3f189608365a9705213c46808e3/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/1668c3f189608365a9705213c46808e3/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c8ed0b3a775fffde67ab95486318121/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c8ed0b3a775fffde67ab95486318121/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/0540cf375e1ccce3ecbaa047580196c1/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/0540cf375e1ccce3ecbaa047580196c1/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/f4b1eb06ec7d74d904e69d5bd261fb73/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/f4b1eb06ec7d74d904e69d5bd261fb73/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/a53987d312c4bebcf16c41f465e2c80c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/a53987d312c4bebcf16c41f465e2c80c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c866b20067a03a4c2b90cde786251083/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c866b20067a03a4c2b90cde786251083/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c106499bb9b42b4061aa80914515d840/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c106499bb9b42b4061aa80914515d840/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/30c343d0f3391efb1cb3ade4007d631e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/30c343d0f3391efb1cb3ade4007d631e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/cf2793f850f4a95b3e02be87a9663e11/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/cf2793f850f4a95b3e02be87a9663e11/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c4e5de603044cca1d2367c4556d59c02/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/c4e5de603044cca1d2367c4556d59c02/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/4901daaf461764a187abb32d5aa66576/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/4901daaf461764a187abb32d5aa66576/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/ec60d98c7ace698f64716f8d0462a852/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/ec60d98c7ace698f64716f8d0462a852/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/ea4598447d2f5ca7a1283caa2af4690c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/ea4598447d2f5ca7a1283caa2af4690c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/149b5c055e7dd170d90d7c3ba97bb17e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/149b5c055e7dd170d90d7c3ba97bb17e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/dfe3a458149428d2f0b7cb55590b4d04/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/dfe3a458149428d2f0b7cb55590b4d04/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/238b2a8d719c037fd475a97fd4d8370d/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/238b2a8d719c037fd475a97fd4d8370d/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/4cbc835636885eb606f9708943d69d5d/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/4cbc835636885eb606f9708943d69d5d/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/9314a1488fc0e873112abff834ae49be/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/9314a1488fc0e873112abff834ae49be/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/349f70c98864ab513a9e18a4e2bd0b2d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/349f70c98864ab513a9e18a4e2bd0b2d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/49e8b4349b445560cecf2a7240263bf9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/49e8b4349b445560cecf2a7240263bf9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/55b66cb3b6bca9b0446e298ee83d6d0b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/55b66cb3b6bca9b0446e298ee83d6d0b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/89c96752da8c8256df4a3b3bfca4acf3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/89c96752da8c8256df4a3b3bfca4acf3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/14862c6672d57c04c1471fff18f21162/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/14862c6672d57c04c1471fff18f21162/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/a8b3184e07265da8fe143213857f7c0c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/a8b3184e07265da8fe143213857f7c0c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/ca1413a93e989c538011872097aef666/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/ca1413a93e989c538011872097aef666/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/405ad4678e259f23599d81790fb1ecfd/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/405ad4678e259f23599d81790fb1ecfd/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/5096fa5064bfccbe95ccc85f5c55043d/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/5096fa5064bfccbe95ccc85f5c55043d/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/af2aad65bda31fb9c430486de807fb35/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/af2aad65bda31fb9c430486de807fb35/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/248552c9cc227f65445f0234d9388a6e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/248552c9cc227f65445f0234d9388a6e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/a2801d83a4d643e2229d3f1dc0315a92/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/a2801d83a4d643e2229d3f1dc0315a92/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/voice/src/main/AndroidManifest.xml
+service#com.wu.lib_pullalive.app.AliveJobService
+ADDED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-18:72
+	android:enabled
+		ADDED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-35
+	android:exported
+		ADDED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-36
+	android:permission
+		ADDED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-69
+	android:name
+		ADDED from [:lib_pullalive] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_pullalive/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-68
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-74
+service#com.wu.ft_audio.mediaplayer.core.MusicService
+ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-18:40
+	android:enabled
+		ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-35
+	android:exported
+		ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-73
+activity#com.wu.ft_audio.mediaplayer.view.MusicPlayerActivity
+ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-24:47
+	android:enabled
+		ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-35
+	android:launchMode
+		ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-44
+	android:exported
+		ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [:ft_audio] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-80
+uses-permission#android.permission.GET_TASKS
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:22-68
+activity#com.mob.tools.MobUIShell
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-40:20
+	android:screenOrientation
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-49
+	android:windowSoftInputMode
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-67
+	android:configChanges
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-74
+	android:theme
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-72
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-52
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent1104917113
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-39:29
+data
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-60
+	android:scheme
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:23-57
+action#android.intent.action.VIEW
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:27-75
+category#android.intent.category.DEFAULT
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:27-73
+activity#com.youdu.wxapi.WXEntryActivity
+ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:9-47:75
+	android:screenOrientation
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-49
+	android:exported
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-36
+	android:configChanges
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-74
+	android:theme
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-72
+	android:name
+		ADDED from [:lib_share] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_share/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-59
+uses-permission#android.permission.VIBRATE
+ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-63
+uses-permission#android.permission.CAMERA
+ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-69
+	android:name
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-66
+uses-feature#android.hardware.camera
+ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-60
+	android:name
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-70
+	android:name
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:19-67
+activity#com.lib_qrcode.zxing.app.CaptureActivity
+ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-28:63
+	android:screenOrientation
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-49
+	android:windowSoftInputMode
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-60
+	android:configChanges
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-63
+	android:name
+		ADDED from [:lib_qrcode] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/lib_qrcode/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-68
+activity#com.wu.ft_login.LoginActivity
+ADDED from [:ft_login] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-16:52
+	android:screenOrientation
+		ADDED from [:ft_login] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-49
+	android:name
+		ADDED from [:ft_login] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_login/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-57
+activity#com.wu.ft_home.view.home.HomeActivity
+ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-19:47
+	android:launchMode
+		ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-44
+	android:name
+		ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-65
+provider#androidx.core.content.FileProvider
+ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-30:20
+	android:grantUriPermissions
+		ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-47
+	android:authorities
+		ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-64
+	android:exported
+		ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-29:54
+	android:resource
+		ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-51
+	android:name
+		ADDED from [:ft_home] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_home/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:17-67
+activity#com.wu.ft_loading.view.loading.LoadingActivity
+ADDED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-21:20
+	android:name
+		ADDED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:19-80
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-20:29
+action#android.intent.action.MAIN
+ADDED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from [:ft_loading] /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_loading/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:27-74
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderUI
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:37:9-40:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:39:13-67
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:38:13-88
+provider#${applicationId}.loader.p.ProviderN1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:41:9-44:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:43:13-65
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:42:13-64
+provider#com.wu.voice.loader.p.ProviderN1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:41:9-44:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:43:13-65
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:42:13-64
+service#${applicationId}.loader.s.ServiceN1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:47:13-63
+service#com.wu.voice.loader.s.ServiceN1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:47:13-63
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderLoader0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:50:9-54:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:54:13-39
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:52:13-66
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:51:13-93
+provider#${applicationId}.loader.p.Provider0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:55:9-59:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:59:13-39
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:57:13-64
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:56:13-63
+provider#com.wu.voice.loader.p.Provider0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:55:9-59:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:59:13-39
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:57:13-64
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:56:13-63
+service#${applicationId}.loader.s.Service0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:61:9-64:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:64:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:62:13-62
+service#com.wu.voice.loader.s.Service0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:61:9-64:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:64:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:62:13-62
+activity#${applicationId}.loader.a.Activity0_singleTask1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:66:9-74:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:72:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:71:13-39
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:70:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:69:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:68:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:74:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:73:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:67:13-75
+activity#com.wu.voice.loader.a.Activity0_singleTask1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:66:9-74:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:72:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:71:13-39
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:70:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:69:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:68:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:74:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:73:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:67:13-75
+activity#${applicationId}.loader.a.Activity0_singleInstance1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:75:9-82:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:81:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:80:13-39
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:79:13-48
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:78:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:77:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:82:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:76:13-79
+activity#com.wu.voice.loader.a.Activity0_singleInstance1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:75:9-82:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:81:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:80:13-39
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:79:13-48
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:78:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:77:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:82:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:76:13-79
+activity#${applicationId}.loader.a.Activity0_task
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:83:9-89:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:88:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:87:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:86:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:85:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:89:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:84:13-68
+activity#com.wu.voice.loader.a.Activity0_task
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:83:9-89:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:88:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:87:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:86:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:85:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:89:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:84:13-68
+activity#${applicationId}.loader.a.Activity0_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:90:9-96:74
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:95:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:94:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:93:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:92:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:96:13-71
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:91:13-74
+activity#com.wu.voice.loader.a.Activity0_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:90:9-96:74
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:95:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:94:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:93:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:92:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:96:13-71
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:91:13-74
+activity#${applicationId}.loader.a.Activity0_translucent
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:97:9-103:75
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:102:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:101:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:100:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:99:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:103:13-72
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:98:13-75
+activity#com.wu.voice.loader.a.Activity0_translucent
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:97:9-103:75
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:102:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:101:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:100:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:99:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:103:13-72
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:98:13-75
+activity#${applicationId}.loader.a.Activity0_translucent_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:104:9-110:86
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:109:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:108:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:107:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:106:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:110:13-83
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:105:13-86
+activity#com.wu.voice.loader.a.Activity0_translucent_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:104:9-110:86
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:109:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:108:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:107:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:106:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:110:13-83
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:105:13-86
+activity#${applicationId}.loader.a.Activity0_dialog
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:111:9-117:59
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:116:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:115:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:114:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:113:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:117:13-56
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:112:13-70
+activity#com.wu.voice.loader.a.Activity0_dialog
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:111:9-117:59
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:116:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:115:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:114:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:113:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:117:13-56
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:112:13-70
+activity#${applicationId}.loader.a.Activity0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:118:9-125:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:123:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:122:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:121:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:120:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:125:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:119:13-63
+activity#com.wu.voice.loader.a.Activity0
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:118:9-125:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:123:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:122:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:121:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:120:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:125:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:119:13-63
+provider#com.qihoo360.replugin.component.process.ProcessPitProviderLoader1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:127:9-131:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:131:13-39
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:129:13-66
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:130:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:128:13-93
+provider#${applicationId}.loader.p.Provider1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:132:9-136:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:136:13-39
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:134:13-64
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:135:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:133:13-63
+provider#com.wu.voice.loader.p.Provider1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:132:9-136:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:136:13-39
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:134:13-64
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:135:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:133:13-63
+service#${applicationId}.loader.s.Service1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:138:9-141:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:141:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:139:13-62
+service#com.wu.voice.loader.s.Service1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:138:9-141:42
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:141:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:139:13-62
+activity#${applicationId}.loader.a.Activity1_singleTask1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:143:9-151:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:149:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:148:13-39
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:147:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:146:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:145:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:151:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:150:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:144:13-75
+activity#com.wu.voice.loader.a.Activity1_singleTask1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:143:9-151:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:149:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:148:13-39
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:147:13-44
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:146:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:145:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:151:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:150:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:144:13-75
+activity#${applicationId}.loader.a.Activity1_singleInstance1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:152:9-159:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:158:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:157:13-39
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:156:13-48
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:155:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:154:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:159:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:153:13-79
+activity#com.wu.voice.loader.a.Activity1_singleInstance1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:152:9-159:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:158:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:157:13-39
+	android:launchMode
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:156:13-48
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:155:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:154:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:159:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:153:13-79
+activity#${applicationId}.loader.a.Activity1_task
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:160:9-166:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:165:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:164:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:163:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:162:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:166:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:161:13-68
+activity#com.wu.voice.loader.a.Activity1_task
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:160:9-166:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:165:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:164:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:163:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:162:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:166:13-60
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:161:13-68
+activity#${applicationId}.loader.a.Activity1_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:167:9-173:74
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:172:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:171:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:170:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:169:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:173:13-71
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:168:13-74
+activity#com.wu.voice.loader.a.Activity1_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:167:9-173:74
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:172:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:171:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:170:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:169:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:173:13-71
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:168:13-74
+activity#${applicationId}.loader.a.Activity1_translucent
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:174:9-180:75
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:179:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:178:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:177:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:176:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:180:13-72
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:175:13-75
+activity#com.wu.voice.loader.a.Activity1_translucent
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:174:9-180:75
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:179:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:178:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:177:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:176:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:180:13-72
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:175:13-75
+activity#${applicationId}.loader.a.Activity1_translucent_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:181:9-187:86
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:186:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:185:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:184:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:183:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:187:13-83
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:182:13-86
+activity#com.wu.voice.loader.a.Activity1_translucent_fullscreen
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:181:9-187:86
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:186:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:185:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:184:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:183:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:187:13-83
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:182:13-86
+activity#${applicationId}.loader.a.Activity1_dialog
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:188:9-194:59
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:193:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:192:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:191:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:190:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:194:13-56
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:189:13-70
+activity#com.wu.voice.loader.a.Activity1_dialog
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:188:9-194:59
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:193:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:192:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:191:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:190:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:194:13-56
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:189:13-70
+activity#${applicationId}.loader.a.Activity1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:195:9-202:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:200:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:199:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:198:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:197:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:202:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:201:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:196:13-63
+activity#com.wu.voice.loader.a.Activity1
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:195:9-202:63
+	android:screenOrientation
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:200:13-49
+	android:process
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:199:13-39
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:198:13-37
+	android:configChanges
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:197:13-83
+	android:theme
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:202:13-60
+	android:taskAffinity
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:201:13-44
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:196:13-63
+provider#com.qihoo360.replugin.component.provider.PluginPitProviderUI
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:204:9-207:40
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:206:13-65
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:207:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:205:13-88
+service#com.qihoo360.replugin.component.service.server.PluginPitServiceUI
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:209:9-101
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:209:18-98
+provider#com.qihoo360.replugin.packages.PluginFastInstallProvider
+ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:216:9-220:20
+	android:authorities
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:218:13-64
+	android:exported
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:219:13-37
+	android:name
+		ADDED from [com.qihoo360.replugin:replugin-host-lib:2.3.3] /Users/wuhaoxuan/.gradle/caches/transforms-2/files-2.1/2c904941486019a28d18ceaf9dfd6b7b/jetified-replugin-host-lib-2.3.3/AndroidManifest.xml:217:13-84

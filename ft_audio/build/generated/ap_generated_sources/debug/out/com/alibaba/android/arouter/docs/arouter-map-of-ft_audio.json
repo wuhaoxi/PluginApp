@@ -1,0 +1,12 @@
+{
+	"audio":[
+		{
+			"group":"audio",
+			"path":"/audio/audio_service",
+			"prototype":"null, com.wu.lib_base.ft_audio.service.AudioService",
+			"className":"com.wu.ft_audio.app.service.AudioServiceImpl",
+			"type":"provider",
+			"mark":-2147483648
+		}
+	]
+}

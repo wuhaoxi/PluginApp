@@ -1,0 +1,6 @@
+int drawable bg_mobile_loggin 0x7f080001
+int id login_view 0x7f0b0001
+int id spreadView 0x7f0b0002
+int layout activity_login_layout 0x7f0e0001
+int mipmap ic_launcher 0x7f100001
+int string app_name 0x7f140001

@@ -1,0 +1,7 @@
+com.wu.ft_login
+drawable bg_mobile_loggin
+id login_view
+id spreadView
+layout activity_login_layout
+mipmap ic_launcher
+string app_name

@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:1-21:12
+	package
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:2:5-30
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:1-21:12
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:1-21:12
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:5:22-74
+application
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:7:5-19:19
+	android:label
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:7:18-50
+service#com.wu.ft_audio.mediaplayer.core.MusicService
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:8:9-11:40
+	android:enabled
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:10:13-35
+	android:exported
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:9:13-73
+activity#com.wu.ft_audio.mediaplayer.view.MusicPlayerActivity
+ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:13:9-17:47
+	android:enabled
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:15:13-35
+	android:launchMode
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:17:13-44
+	android:exported
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:14:13-80
+uses-sdk
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+		ADDED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+		INJECTED from /Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml

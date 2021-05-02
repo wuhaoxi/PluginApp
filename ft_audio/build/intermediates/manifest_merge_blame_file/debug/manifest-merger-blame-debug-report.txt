@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wu.ft_audio"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:5:5-76
+12-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:5:22-74
+13
+14    <application android:label="@string/app_name" >
+14-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:7:5-19:19
+14-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:7:18-50
+15        <service
+15-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:8:9-11:40
+16            android:name="com.wu.ft_audio.mediaplayer.core.MusicService"
+16-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:9:13-73
+17            android:enabled="true"
+17-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:10:13-35
+18            android:exported="false" />
+18-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:11:13-37
+19
+20        <activity
+20-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:13:9-17:47
+21            android:name="com.wu.ft_audio.mediaplayer.view.MusicPlayerActivity"
+21-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:14:13-80
+22            android:enabled="true"
+22-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:15:13-35
+23            android:exported="false"
+23-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:16:13-37
+24            android:launchMode="singleTask" />
+24-->/Users/wuhaoxuan/Documents/own/AndroidStudioProjects/music_app_plugin/ft_audio/src/main/AndroidManifest.xml:17:13-44
+25    </application>
+26
+27</manifest>
