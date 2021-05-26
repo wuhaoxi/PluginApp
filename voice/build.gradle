@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.alibaba.arouter'
 
 android {
     compileSdkVersion this.rootProject.android.compileSdkVersion
@@ -12,13 +11,6 @@ android {
         versionCode this.rootProject.android.versionCode
         versionName this.rootProject.android.versionName
         multiDexEnabled false
-
-        //ARouter配置
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments = [AROUTER_MODULE_NAME: project.getName(), AROUTER_GENERATE_DOC: "enable"]
-            }
-        }
     }
 
     compileOptions {
@@ -41,76 +33,36 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
+    //android原生库
     implementation this.rootProject.depsLibs.appcompat
     //android design库
     implementation rootProject.depsLibs.design
     //recyclerview
     implementation this.rootProject.depsLibs.recyclerview
+    //constraint
+    implementation this.rootProject.depsLibs.constraint
     //rxjava
     implementation rootProject.depsLibs.rxjava
     implementation rootProject.depsLibs.rxandroid
-    //arouter库
-    implementation(rootProject.depsLibs.arouterapi) {
-        exclude group: 'com.android.support'
-    }
-    annotationProcessor rootProject.depsLibs.aroutercompiler
-    //eventbus
-    implementation rootProject.depsLibs.eventbus
-    //greendao类库依赖
-    implementation rootProject.depsLibs.greendao
-    //gson解析库
-    implementation rootProject.depsLibs.gson
     //基础UI库
     implementation project(':lib_common_ui')
-    //网络请求库
-    implementation project(':lib_network')
-    //图片加载库
-    implementation project(':lib_image_loader')
-    //音频播放库
-    implementation project(':ft_audio')
-    //webview库
-    implementation project(':lib_webview')
-    //分享库
-    implementation project(':lib_share')
     //保活库
     implementation project(':lib_pullalive')
-    //视频播放器组件
-    implementation project(':lib_video')
-    //二维码扫描库
-    implementation project(':lib_qrcode')
     //业务基础库
     implementation project(':lib_base')
     //app下载更新库
     implementation project(':lib_update')
-    //登录模块
-    implementation project(':ft_login')
-    //登录模块
-    implementation project(':ft_home')
-    //loading模块
-    implementation project(':ft_loading')
-    //发现模块
-    implementation project(':ft_discory')
-    //朋友模块
-    implementation project(':ft_friend')
-    //个人模块
-    implementation project(':ft_mine')
-
+    //分享库
+    implementation project(':lib_share')
+    //视频库
+    implementation project(':lib_video')
 }
 
-//引用replugin-host-gradle插件
+//引用replugin-host-grade插件
 apply plugin: 'replugin-host-gradle'
 
-/**
- * 配置项均为可选配置，默认无需添加
- * 更多可选配置项参见replugin-host-gradle的RepluginConfig类
- * 可更改配置项参见 自动生成RePluginHostConfig.java
- */
 repluginHostConfig {
-    /**
-     * 是否使用 AppCompat 库
-     * 不需要个性化配置时，无需添加
-     */
+    //使插件能够使用android各种兼容库
     useAppCompat = true
 }
 

@@ -27,8 +27,7 @@ dependencies {
     compileOnly rootProject.depsLibs.appcompat
     compileOnly rootProject.depsLibs.recyclerview
     compileOnly project(':lib_image_loader')
+    api rootProject.depsLibs.magicindicator
 
-    api (rootProject.depsLibs.magicindicator) {
-        exclude group: 'com.android.support'
-    }
+    compileOnly "com.qihoo360.replugin:replugin-plugin-lib:2.3.3"
 }

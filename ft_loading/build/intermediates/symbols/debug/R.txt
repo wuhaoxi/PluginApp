@@ -1,3 +1,0 @@
-int layout activity_loading_layout 0x7f0e0001
-int mipmap b_m 0x7f100001
-int string app_name 0x7f140001

@@ -20,6 +20,8 @@ buildscript {
         classpath 'com.alibaba:arouter-register:1.0.2'
         //宿主插件
         classpath 'com.qihoo360.replugin:replugin-host-gradle:2.3.3'
+        //插件插件
+        classpath 'com.qihoo360.replugin:replugin-plugin-gradle:2.3.3'
     }
 }
 

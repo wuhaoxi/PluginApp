@@ -1,18 +1,17 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion rootProject.android.compileSdkVersion
+    buildToolsVersion rootProject.android.buildToolsVersion
 
 
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 29
+        applicationId 'com.wu.ft_mine'
+        minSdkVersion rootProject.android.minSdkVersion
+        targetSdkVersion rootProject.android.targetSdkVersion
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles 'consumer-rules.pro'
+        multiDexEnabled false
     }
 
     buildTypes {
@@ -21,14 +20,36 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+}
 
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(this.rootProject.depsLibs.appcompat) {
+        exclude group: 'androidx.fragment', module: 'fragment'
+    }
+}
 
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+//必须所有的库都去除，任何一个库入了fragment,都会报错
+configurations.all {
+    exclude group: 'androidx.fragment', module: 'fragment'
+}
+
+//引入插件
+apply plugin: 'replugin-plugin-gradle'
+
+repluginPluginConfig {
+    pluginName = 'ft_mine' //定义插件名
+    hostApplicationId = 'com.wu.voice' //宿主application
+    hostAppLauncherActivity = "com.wu.voice.application.MainShellActivity" //宿主工程启动activity
+}
+
+//添加依赖
+dependencies {
+    implementation "com.qihoo360.replugin:replugin-plugin-lib:2.3.3"
+    compileOnly files('libs/fragment.jar')
 }

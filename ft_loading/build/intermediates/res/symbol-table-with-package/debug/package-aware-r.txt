@@ -1,4 +1,0 @@
-com.wu.ft_loading
-layout activity_loading_layout
-mipmap b_m
-string app_name

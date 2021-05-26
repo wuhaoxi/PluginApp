@@ -11,6 +11,9 @@ import androidx.fragment.app.FragmentActivity;
 import com.wu.lib_common_ui.base.constant.Constant;
 import com.wu.lib_common_ui.utils.StatusBarUtil;
 
+/**
+ * 所有宿主Activity的父类
+ */
 public class BaseActivity extends FragmentActivity {
 
     @Override

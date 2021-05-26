@@ -1,4 +1,4 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 apply plugin: 'maven'
 apply plugin: 'com.alibaba.arouter'
 
@@ -7,10 +7,12 @@ android {
     buildToolsVersion rootProject.android.buildToolsVersion
 
     defaultConfig {
+        applicationId 'com.wu.ft_loading'
         minSdkVersion rootProject.android.minSdkVersion
         targetSdkVersion rootProject.android.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        multiDexEnabled false
 
         //ARouter配置
         javaCompileOptions {
@@ -40,14 +42,28 @@ android {
 
 dependencies {
     //业务基础库
-    compileOnly project(':lib_base')
+    implementation project(':lib_base')
     //基础UI库
-    compileOnly project(':lib_common_ui')
+    implementation project(':lib_common_ui')
     //保活库
-    compileOnly project(':lib_pullalive')
+    implementation project(':lib_pullalive')
     //arouter库
-    compileOnly(rootProject.depsLibs.arouterapi) {
+    implementation(rootProject.depsLibs.arouterapi) {
         exclude group: 'com.android.support'
     }
     annotationProcessor rootProject.depsLibs.aroutercompiler
+}
+
+//引入插件
+apply plugin: 'replugin-plugin-gradle'
+
+repluginPluginConfig {
+    pluginName = 'ft_loading' //定义插件名
+    hostApplicationId = 'com.wu.voice' //宿主application
+    hostAppLauncherActivity = "com.wu.voice.application.MainShellActivity" //宿主工程启动activity
+}
+
+//添加依赖
+dependencies {
+    implementation "com.qihoo360.replugin:replugin-plugin-lib:2.3.3"
 }

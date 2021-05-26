@@ -1,2 +1,0 @@
-com.wu.lib_base
-string app_name

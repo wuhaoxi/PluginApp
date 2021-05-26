@@ -19,7 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/lib_update/lib_update.iml" filepath="$PROJECT_DIR$/lib_update/lib_update.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_video/lib_video.iml" filepath="$PROJECT_DIR$/lib_video/lib_video.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_webview/lib_webview.iml" filepath="$PROJECT_DIR$/lib_webview/lib_webview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/music_app.iml" filepath="$PROJECT_DIR$/music_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music_app_plugin.iml" filepath="$PROJECT_DIR$/music_app_plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/voice/voice.iml" filepath="$PROJECT_DIR$/voice/voice.iml" />
     </modules>
   </component>

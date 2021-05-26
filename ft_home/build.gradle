@@ -1,16 +1,18 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
+apply plugin: 'maven'
 apply plugin: 'com.alibaba.arouter'
 
 android {
     compileSdkVersion this.rootProject.android.compileSdkVersion
     buildToolsVersion this.rootProject.android.buildToolsVersion
 
-
     defaultConfig {
+        applicationId 'com.wu.ft_home'
         minSdkVersion this.rootProject.android.minSdkVersion
         targetSdkVersion this.rootProject.android.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        multiDexEnabled false
 
         //ARouter配置
         javaCompileOptions {
@@ -18,6 +20,15 @@ android {
                 arguments = [AROUTER_MODULE_NAME: project.getName(), AROUTER_GENERATE_DOC: "enable"]
             }
         }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        abortOnError false
     }
 
     buildTypes {
@@ -29,34 +40,61 @@ android {
 
 }
 
+//必须所有的库都去除，任何一个库入了fragment,都会报错
+configurations.all {
+    exclude group: 'androidx.fragment', module: 'fragment'
+    exclude group: 'androidx.viewpager', module: 'viewpager'
+}
+
 dependencies {
-    compileOnly this.rootProject.depsLibs.appcompat
-    compileOnly this.rootProject.depsLibs.recyclerview
-    compileOnly this.rootProject.depsLibs.design
-    compileOnly this.rootProject.depsLibs.constraint
+    implementation(this.rootProject.depsLibs.appcompat) {
+        exclude group: 'androidx.fragment', module: 'fragment'
+    }
+    implementation this.rootProject.depsLibs.recyclerview
     //eventbus类库依赖
-    compileOnly rootProject.depsLibs.eventbus
+    implementation rootProject.depsLibs.eventbus
     //gson解析库
-    compileOnly rootProject.depsLibs.gson
+    implementation rootProject.depsLibs.gson
     //arouter库
-    compileOnly(rootProject.depsLibs.arouterapi) {
+    implementation(rootProject.depsLibs.arouterapi) {
         exclude group: 'com.android.support'
     }
     annotationProcessor rootProject.depsLibs.aroutercompiler
-    //业务基础库
-    compileOnly project(':lib_base')
+    //占位主工程的greenDao类库
+    implementation rootProject.depsLibs.greendao
+    //占位主工程的rxjava库
+    implementation rootProject.depsLibs.rxjava
+    implementation rootProject.depsLibs.rxandroid
     //app下载更新库
-    compileOnly project(':lib_update')
-    //网络请求库
-    compileOnly project(':lib_network')
-    //基础UI库
-    compileOnly project(':lib_common_ui')
+    implementation project(':lib_update')
     //图片加载库
-    compileOnly project(':lib_image_loader')
-    //发现模块
-    compileOnly project(':ft_discory')
-    //朋友模块
-    compileOnly project(':ft_friend')
-    //个人模块
-    compileOnly project(':ft_mine')
+    implementation project(':lib_image_loader')
+    implementation project(':lib_network')
+    //基础UI库
+    implementation project(':lib_base')
+    implementation project(':lib_common_ui')
 }
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+//引入插件
+apply plugin: 'replugin-plugin-gradle'
+
+repluginPluginConfig {
+    pluginName = 'ft_home' //定义插件名
+    hostApplicationId = 'com.wu.voice' //宿主application
+    hostAppLauncherActivity = "com.wu.voice.application.MainShellActivity" //宿主工程启动activity
+}
+
+//添加依赖
+dependencies {
+    implementation "com.qihoo360.replugin:replugin-plugin-lib:2.3.3"
+    compileOnly files('libs/fragment.jar') //这个jar就是从Support-fragment中提取出来的并非特制包目的是为了骗过编译期
+    compileOnly files('libs/viewpager.jar') //这个jar就是从Support-fragment中提取出来的并非特制包目的是为了骗过编译
+}
+
+

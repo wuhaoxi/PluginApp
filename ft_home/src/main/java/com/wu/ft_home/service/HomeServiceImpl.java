@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.wu.ft_home.view.home.HomeActivity;
+import com.wu.ft_home.view.HomeActivity;
 import com.wu.lib_base.ft_home.service.HomeService;
 
 /**
@@ -16,7 +16,7 @@ public class HomeServiceImpl implements HomeService {
 
     @Override
     public void startHomeActivity(Context context) {
-        HomeActivity.start(context);
+        //cHomeActivity.start(context);
     }
 
     @Override

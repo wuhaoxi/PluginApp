@@ -28,6 +28,7 @@ import com.wu.ft_audio.mediaplayer.event.AudioStartEvent;
 import com.wu.ft_audio.mediaplayer.model.AudioBean;
 import com.wu.ft_audio.mediaplayer.utils.Utils;
 import com.wu.lib_common_ui.base.BaseActivity;
+import com.wu.lib_common_ui.base.plugin.PluginBaseActivity;
 import com.wu.lib_image_loader.app.ImageLoaderManager;
 import com.wu.lib_share.share.ShareDialog;
 
@@ -42,7 +43,7 @@ import androidx.core.app.ActivityOptionsCompat;
 /**
  * 播放音乐Activity
  */
-public class MusicPlayerActivity extends BaseActivity {
+public class MusicPlayerActivity extends PluginBaseActivity {
 
     private RelativeLayout mBgView;
     private TextView mInfoView;
@@ -69,18 +70,12 @@ public class MusicPlayerActivity extends BaseActivity {
 
     public static void start(Activity context) {
         Intent intent = new Intent(context, MusicPlayerActivity.class);
-        ActivityCompat.startActivity(context, intent,
-                ActivityOptionsCompat.makeSceneTransitionAnimation(context).toBundle());
+        context.startActivity(intent);
     }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //添加入场动画
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setEnterTransition(
-                    TransitionInflater.from(this).inflateTransition(R.transition.transition_bottom2top));
-        }
         EventBus.getDefault().register(this);
         setContentView(R.layout.activity_music_service_layout);
         initData();

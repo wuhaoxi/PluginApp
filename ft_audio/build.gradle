@@ -1,4 +1,4 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 apply plugin: 'org.greenrobot.greendao'
 apply plugin: 'maven'
 apply plugin: 'com.alibaba.arouter'
@@ -45,34 +45,55 @@ android {
 }
 
 dependencies {
-    //占位主工程android原生库
-    compileOnly rootProject.depsLibs.appcompat
-    compileOnly rootProject.depsLibs.design
-    compileOnly rootProject.depsLibs.recyclerview
+    //主工程android原生库
+    implementation rootProject.depsLibs.appcompat
+    implementation rootProject.depsLibs.design
+    implementation rootProject.depsLibs.recyclerview
 
-    //占位主工程的greenDao类库
-    compileOnly rootProject.depsLibs.greendao
-    //占位主工程的eventbus库
-    compileOnly rootProject.depsLibs.eventbus
-    //占位主工程的rxjava库
-    compileOnly rootProject.depsLibs.rxjava
-    //占位主工程arouter库
-    compileOnly(rootProject.depsLibs.arouterapi) {
+    implementation rootProject.depsLibs.greendao
+    implementation rootProject.depsLibs.eventbus
+    implementation rootProject.depsLibs.rxjava
+    implementation rootProject.depsLibs.rxandroid
+    implementation(rootProject.depsLibs.arouterapi) {
         exclude group: 'com.android.support'
     }
     annotationProcessor rootProject.depsLibs.aroutercompiler
+    //gson
+    implementation rootProject.depsLibs.gson
 
     //占位主工程自己源码库
-    compileOnly project(':lib_image_loader')
-    compileOnly project(':lib_common_ui')
-    compileOnly project(':lib_share')
-    compileOnly project(':lib_base')
+    implementation project(':lib_image_loader')
+    implementation project(':lib_common_ui')
+    implementation project(':lib_share')
+    implementation project(':lib_base')
 }
 
 greendao {
     //其它配置保持默认,有需要再研究
     schemaVersion 1 //数据库版本号
-    daoPackage 'com.wu.lib_audio.mediaplayer.db' //dao,master类所在包
+    daoPackage 'com.wu.ft_audio.mediaplayer.db' //dao,master类所在包
+}
+
+//必须所有的库都去除，任何一个库入了fragment,都会报错
+configurations.all {
+    exclude group: 'androidx.fragment', module: 'fragment'
+    exclude group: 'androidx.viewpager', module: 'viewpager'
+}
+
+//引入插件
+apply plugin: 'replugin-plugin-gradle'
+
+repluginPluginConfig {
+    pluginName = 'ft_audio' //定义插件名
+    hostApplicationId = 'com.wu.voice' //宿主application
+    hostAppLauncherActivity = "com.wu.voice.application.MainShellActivity" //宿主工程启动activity
+}
+
+//添加依赖
+dependencies {
+    implementation "com.qihoo360.replugin:replugin-plugin-lib:2.3.3"
+    compileOnly files('libs/fragment.jar')
+    compileOnly files('libs/viewpager.jar') //作用同上
 }
 
 //上传maven配置
