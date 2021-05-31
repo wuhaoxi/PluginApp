@@ -6,8 +6,8 @@ import android.util.Log;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.wu.ft_login.view.LoginActivity;
 import com.wu.ft_login.manager.UserManager;
-import com.wu.lib_base.ft_login.model.user.User;
-import com.wu.lib_base.ft_login.service.LoginService;
+import com.wu.lib_base.service.ft_login.model.user.User;
+import com.wu.lib_base.service.ft_login.service.LoginService;
 
 /**
  * @author wuhaoxuan

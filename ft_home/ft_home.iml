@@ -138,5 +138,12 @@
     <orderEntry type="module" module-name="lib_update" />
     <orderEntry type="module" module-name="lib_image_loader" />
     <orderEntry type="module" module-name="lib_base" />
+    <orderEntry type="module" module-name="lib_plugin_manager" />
+    <orderEntry type="module" module-name="lib_common_ui" />
+    <orderEntry type="module" module-name="lib_network" />
+    <orderEntry type="module" module-name="lib_update" />
+    <orderEntry type="module" module-name="lib_image_loader" />
+    <orderEntry type="module" module-name="lib_base" />
+    <orderEntry type="module" module-name="lib_plugin_manager" />
   </component>
 </module>

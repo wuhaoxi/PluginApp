@@ -16,7 +16,7 @@ import com.wu.ft_audio.mediaplayer.event.AudioPauseEvent;
 import com.wu.ft_audio.mediaplayer.event.AudioStartEvent;
 import com.wu.ft_audio.mediaplayer.model.AudioBean;
 import com.wu.ft_audio.mediaplayer.view.NotificationHelper;
-import com.wu.lib_base.ft_audio.AudioPluginConfig;
+import com.wu.lib_base.service.ft_audio.AudioPluginConfig;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

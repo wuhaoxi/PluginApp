@@ -7,7 +7,6 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import androidx.annotation.Nullable;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
@@ -23,6 +22,8 @@ import com.wu.lib_webview.adbrowser.AdBrowserWebViewClient;
 import com.wu.lib_webview.adbrowser.Base64Drawables;
 import com.wu.lib_webview.adbrowser.BrowserWebview;
 import com.wu.lib_webview.utils.Utils;
+
+import androidx.annotation.Nullable;
 
 /**
  * Webview页面

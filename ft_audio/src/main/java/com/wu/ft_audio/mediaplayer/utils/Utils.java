@@ -1,7 +1,7 @@
 package com.wu.ft_audio.mediaplayer.utils;
 
 import com.wu.ft_audio.mediaplayer.model.AudioBean;
-import com.wu.lib_base.ft_audio.model.CommonAudioBean;
+import com.wu.lib_base.service.ft_audio.model.CommonAudioBean;
 
 import java.util.ArrayList;
 

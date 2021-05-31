@@ -1,6 +1,6 @@
 package com.wu.ft_login.api;
 
-import com.wu.lib_base.ft_login.model.user.User;
+import com.wu.lib_base.service.ft_login.model.user.User;
 import com.wu.lib_network.okhttp.CommonOkHttpClient;
 import com.wu.lib_network.okhttp.request.CommonRequest;
 import com.wu.lib_network.okhttp.request.RequestParams;

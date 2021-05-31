@@ -5,10 +5,8 @@ import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.wu.lib_base.ft_audio.service.AudioService;
-import com.wu.lib_base.ft_audio.service.impl.AudioImpl;
+import com.wu.lib_base.service.impl.AudioImpl;
 import com.wu.lib_video.videoplayer.core.view.CustomVideoView;
 import com.wu.lib_video.videoplayer.core.view.VideoFullDialog;
 import com.wu.lib_video.videoplayer.utils.Utils;

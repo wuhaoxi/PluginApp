@@ -5,15 +5,23 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 
 import com.qihoo360.replugin.RePlugin;
+import com.qihoo360.replugin.model.PluginInfo;
 import com.wu.ft_loading.R;
 import com.wu.lib_base.ft_home.HomePluginConfig;
 import com.wu.lib_common_ui.base.constant.Constant;
 import com.wu.lib_common_ui.base.plugin.PluginBaseActivity;
+import com.wu.lib_plugin_manager.PluginManager;
 import com.wu.lib_pullalive.app.AliveJobService;
 
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.functions.Consumer;
+
 public class LoadingActivity extends PluginBaseActivity {
+
+    private static final String TAG = "LoadingActivity";
 
     @SuppressLint("HandlerLeak")
     private Handler mHandler = new Handler() {
@@ -45,6 +53,9 @@ public class LoadingActivity extends PluginBaseActivity {
     @Override
     public void doSDCardPermission() {
         mHandler.sendEmptyMessageDelayed(0, 3000);
+        // TODO
+        PluginManager.getInstance().requestPluginConfigData();
+
     }
 
     @Override

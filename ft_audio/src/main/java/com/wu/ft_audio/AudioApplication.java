@@ -5,7 +5,7 @@ import android.app.Application;
 import com.qihoo360.replugin.RePlugin;
 import com.wu.ft_audio.app.AudioHelper;
 import com.wu.ft_audio.app.service.aidl.AudioServiceImpl;
-import com.wu.lib_base.ft_audio.AudioPluginConfig;
+import com.wu.lib_base.service.ft_audio.AudioPluginConfig;
 import com.wu.lib_share.share.ShareManager;
 
 public class AudioApplication extends Application {

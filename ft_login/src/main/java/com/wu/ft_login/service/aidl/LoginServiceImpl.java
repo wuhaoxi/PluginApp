@@ -1,10 +1,8 @@
 package com.wu.ft_login.service.aidl;
 
-import android.os.RemoteException;
-
 import com.wu.ft_login.manager.UserManager;
-import com.wu.lib_base.ft_login.model.user.User;
-import com.wu.lib_base.ft_login.service.ILoginService;
+import com.wu.lib_base.service.ft_login.ILoginService;
+import com.wu.lib_base.service.ft_login.model.user.User;
 
 /**
  * ILoginServie aidl具体实现

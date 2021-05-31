@@ -38,7 +38,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
-import com.alibaba.android.arouter.facade.annotation.Route;
+
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;
@@ -51,7 +51,6 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 import com.google.zxing.qrcode.QRCodeWriter;
-import com.wu.lib_common_ui.base.BaseActivity;
 import com.lib_qrcode.R;
 import com.lib_qrcode.zxing.camera.CameraManager;
 import com.lib_qrcode.zxing.decode.BeepManager;
@@ -63,6 +62,8 @@ import com.lib_qrcode.zxing.decode.Intents;
 import com.lib_qrcode.zxing.decode.RGBLuminanceSource;
 import com.lib_qrcode.zxing.util.Util;
 import com.lib_qrcode.zxing.view.ViewfinderView;
+import com.wu.lib_common_ui.base.plugin.PluginBaseActivity;
+
 import java.io.IOException;
 import java.util.HashSet;
 import java.util.Hashtable;
@@ -77,8 +78,7 @@ import java.util.Vector;
  * @author dswitkin@google.com (Daniel Switkin)
  * @author Sean Owen
  */
-@Route(path = "/qrcode/capture_activity")
-public final class CaptureActivity extends BaseActivity
+public final class CaptureActivity extends PluginBaseActivity
     implements SurfaceHolder.Callback {
 
   private static final String TAG = CaptureActivity.class.getSimpleName();

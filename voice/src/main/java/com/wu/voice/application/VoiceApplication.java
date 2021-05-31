@@ -10,8 +10,8 @@ import com.wu.lib_base.ft_discory.DiscoryPluginConfig;
 import com.wu.lib_base.ft_friend.FriendPluginConfig;
 import com.wu.lib_base.ft_home.HomePluginConfig;
 import com.wu.lib_base.ft_loading.LoadingPluginConfig;
-import com.wu.lib_base.ft_login.LoginPluginConfig;
 import com.wu.lib_base.ft_mine.MinePluginConfig;
+import com.wu.voice.application.service.IHostServiceImpl;
 
 import java.util.concurrent.Callable;
 
@@ -39,6 +39,7 @@ public class VoiceApplication extends RePluginApplication {
         //UpdateHelper.init(this);
 
         preloadPlugin();
+        RePlugin.registerGlobalBinder(HomePluginConfig.KEY_INTERFACE, new IHostServiceImpl());
     }
 
     /**

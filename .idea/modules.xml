@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/lib_common_ui/lib_common_ui.iml" filepath="$PROJECT_DIR$/lib_common_ui/lib_common_ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" filepath="$PROJECT_DIR$/lib_image_loader/lib_image_loader.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_network/lib_network.iml" filepath="$PROJECT_DIR$/lib_network/lib_network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_plugin_manager/lib_plugin_manager.iml" filepath="$PROJECT_DIR$/lib_plugin_manager/lib_plugin_manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_pullalive/lib_pullalive.iml" filepath="$PROJECT_DIR$/lib_pullalive/lib_pullalive.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_qrcode/lib_qrcode.iml" filepath="$PROJECT_DIR$/lib_qrcode/lib_qrcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_share/lib_share.iml" filepath="$PROJECT_DIR$/lib_share/lib_share.iml" />

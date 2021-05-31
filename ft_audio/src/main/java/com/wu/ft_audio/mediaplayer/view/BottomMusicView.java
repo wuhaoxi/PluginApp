@@ -1,8 +1,8 @@
 package com.wu.ft_audio.mediaplayer.view;
 
 import android.animation.ObjectAnimator;
-import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,12 +11,14 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.qihoo360.replugin.RePlugin;
 import com.wu.ft_audio.R;
 import com.wu.ft_audio.mediaplayer.core.AudioController;
 import com.wu.ft_audio.mediaplayer.event.AudioLoadEvent;
 import com.wu.ft_audio.mediaplayer.event.AudioPauseEvent;
 import com.wu.ft_audio.mediaplayer.event.AudioStartEvent;
 import com.wu.ft_audio.mediaplayer.model.AudioBean;
+import com.wu.lib_base.service.ft_audio.AudioPluginConfig;
 import com.wu.lib_image_loader.app.ImageLoaderManager;
 
 import org.greenrobot.eventbus.EventBus;
@@ -67,7 +69,11 @@ public class BottomMusicView extends RelativeLayout {
             @Override
             public void onClick(View v) {
                 //跳到音乐播放Activity
-                MusicPlayerActivity.start((Activity)mContext);
+                //MusicPlayerActivity.start((Activity)mContext);
+                Intent intent = RePlugin.createIntent(AudioPluginConfig.PLUGIN_NAME,
+                        AudioPluginConfig.PAGE.PAGE_MUSIC);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                RePlugin.startActivity(v.getContext(), intent);
             }
         });
         mLeftView = rootView.findViewById(R.id.album_view);

@@ -9,8 +9,8 @@ import com.wu.ft_login.api.RequestCenter;
 import com.wu.ft_login.inter.IUserLoginPresenter;
 import com.wu.ft_login.inter.IUserLoginView;
 import com.wu.ft_login.manager.UserManager;
-import com.wu.lib_base.ft_login.LoginPluginConfig;
-import com.wu.lib_base.ft_login.model.user.User;
+import com.wu.lib_base.service.ft_login.LoginPluginConfig;
+import com.wu.lib_base.service.ft_login.model.user.User;
 import com.wu.lib_network.okhttp.response.listener.DisposeDataListener;
 
 /**

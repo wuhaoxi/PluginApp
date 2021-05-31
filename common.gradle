@@ -26,6 +26,7 @@ ext {
             arouterapi    : '1.5.0',
             aroutercompiler : '1.2.2',
             gson           : '2.8.0',
+            zxing          : '3.0.1',
     ]
 
     depsLibs = [
@@ -44,5 +45,6 @@ ext {
             arouterapi     : "com.alibaba:arouter-api:${depsVersion.arouterapi}",
             aroutercompiler: "com.alibaba:arouter-compiler:${depsVersion.aroutercompiler}",
             gson           : "com.google.code.gson:gson:${depsVersion.gson}",
+            zxing          : "com.google.zxing:core:${depsVersion.zxing}"
     ]
 }

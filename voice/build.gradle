@@ -64,6 +64,7 @@ apply plugin: 'replugin-host-gradle'
 repluginHostConfig {
     //使插件能够使用android各种兼容库
     useAppCompat = true
+    persistentEnable = false
 }
 
 dependencies {

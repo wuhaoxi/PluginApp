@@ -1,6 +1,5 @@
 package com.wu.ft_friend.view.adapter;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.IBinder;
@@ -12,12 +11,11 @@ import android.widget.RelativeLayout;
 import com.google.gson.Gson;
 import com.qihoo360.replugin.RePlugin;
 import com.wu.ft_friend.R;
-import com.wu.lib_base.ft_audio.AudioPluginConfig;
-import com.wu.lib_base.ft_audio.service.IAudioService;
-import com.wu.lib_base.ft_audio.service.impl.AudioImpl;
-import com.wu.lib_base.ft_login.LoginPluginConfig;
-import com.wu.lib_base.ft_login.service.ILoginService;
 import com.wu.lib_base.model.friend.FriendBodyValue;
+import com.wu.lib_base.service.ft_audio.AudioPluginConfig;
+import com.wu.lib_base.service.ft_audio.IAudioService;
+import com.wu.lib_base.service.ft_login.ILoginService;
+import com.wu.lib_base.service.ft_login.LoginPluginConfig;
 import com.wu.lib_common_ui.MultiImageViewLayout;
 import com.wu.lib_common_ui.recyclerview.MultiItemTypeAdapter;
 import com.wu.lib_common_ui.recyclerview.base.ItemViewDelegate;

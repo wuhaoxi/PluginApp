@@ -2,7 +2,7 @@ package com.wu.lib_base.model.friend;
 
 
 import com.wu.lib_base.BaseModel;
-import com.wu.lib_base.ft_audio.model.CommonAudioBean;
+import com.wu.lib_base.service.ft_audio.model.CommonAudioBean;
 
 import java.util.ArrayList;
 

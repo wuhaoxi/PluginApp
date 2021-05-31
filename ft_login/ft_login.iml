@@ -130,5 +130,8 @@
     <orderEntry type="module" module-name="lib_common_ui" />
     <orderEntry type="module" module-name="lib_network" />
     <orderEntry type="module" module-name="lib_base" />
+    <orderEntry type="module" module-name="lib_common_ui" />
+    <orderEntry type="module" module-name="lib_network" />
+    <orderEntry type="module" module-name="lib_base" />
   </component>
 </module>

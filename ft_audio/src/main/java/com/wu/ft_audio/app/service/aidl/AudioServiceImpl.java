@@ -3,7 +3,7 @@ package com.wu.ft_audio.app.service.aidl;
 import com.google.gson.Gson;
 import com.wu.ft_audio.mediaplayer.core.AudioController;
 import com.wu.ft_audio.mediaplayer.model.AudioBean;
-import com.wu.lib_base.ft_audio.service.IAudioService;
+import com.wu.lib_base.service.ft_audio.IAudioService;
 
 /**
  * IAudioService的实现类

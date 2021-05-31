@@ -1,7 +1,7 @@
 package com.wu.ft_login.manager;
 
 
-import com.wu.lib_base.ft_login.model.user.User;
+import com.wu.lib_base.service.ft_login.model.user.User;
 
 /**
  * @author wuhaoxuan

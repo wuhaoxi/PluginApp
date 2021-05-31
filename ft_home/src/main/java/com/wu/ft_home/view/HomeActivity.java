@@ -1,5 +1,6 @@
 package com.wu.ft_home.view;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -9,31 +10,35 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.google.gson.Gson;
 import com.qihoo360.replugin.RePlugin;
-import com.qihoo360.replugin.loader.s.PluginServiceClient;
+import com.qihoo360.replugin.model.PluginInfo;
 import com.wu.ft_home.R;
 import com.wu.ft_home.model.CHANNEL;
 import com.wu.ft_home.utils.Utils;
 import com.wu.ft_home.view.adapter.HomePagerAdapter;
-import com.wu.lib_base.ft_audio.AudioPluginConfig;
-import com.wu.lib_base.ft_audio.model.CommonAudioBean;
-import com.wu.lib_base.ft_audio.service.impl.AudioImpl;
 import com.wu.lib_base.ft_home.HomePluginConfig;
-import com.wu.lib_base.ft_login.LoginPluginConfig;
-import com.wu.lib_base.ft_login.model.user.User;
-import com.wu.lib_base.ft_login.service.ILoginService;
+import com.wu.lib_base.service.ft_audio.AudioPluginConfig;
+import com.wu.lib_base.service.ft_audio.model.CommonAudioBean;
+import com.wu.lib_base.service.ft_login.ILoginService;
+import com.wu.lib_base.service.ft_login.LoginPluginConfig;
+import com.wu.lib_base.service.ft_login.model.user.User;
+import com.wu.lib_base.service.host.IHostService;
+import com.wu.lib_base.webview.WebViewPluginConfig;
 import com.wu.lib_common_ui.base.constant.Constant;
 import com.wu.lib_common_ui.base.plugin.PluginBaseActivity;
 import com.wu.lib_common_ui.pager_indictor.ScaleTransitionPagerTitleView;
 import com.wu.lib_image_loader.app.ImageLoaderManager;
+import com.wu.lib_plugin_manager.PluginManager;
 import com.wu.lib_update.app.UpdateHelper;
 
 import net.lucode.hackware.magicindicator.MagicIndicator;
@@ -44,12 +49,20 @@ import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerInd
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.SimplePagerTitleView;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
+import java.util.concurrent.Callable;
 
+import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.viewpager.widget.ViewPager;
+import io.reactivex.Observable;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.functions.Consumer;
+import io.reactivex.schedulers.Schedulers;
 
 public class HomeActivity extends PluginBaseActivity implements View.OnClickListener {
 
@@ -73,8 +86,6 @@ public class HomeActivity extends PluginBaseActivity implements View.OnClickList
     private View unLogginLayout;
     private ImageView mPhotoView;
 
-    private RelativeLayout mBottomContainer;
-
     /**
      * data
      */
@@ -89,6 +100,15 @@ public class HomeActivity extends PluginBaseActivity implements View.OnClickList
         initView();
         initData();
         initService();
+        // TODO
+        //插件调用主工程方法
+        IBinder binder = RePlugin.getGlobalBinder(HomePluginConfig.KEY_INTERFACE);
+        IHostService service = IHostService.Stub.asInterface(binder);
+        try {
+            Log.e(TAG, service.isHostDebug() + "");
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
     }
 
     private void initData() {
@@ -147,7 +167,6 @@ public class HomeActivity extends PluginBaseActivity implements View.OnClickList
         mPhotoView = findViewById(R.id.avatr_view);
         findViewById(R.id.exit_layout).setOnClickListener(this);
 
-        mBottomContainer = findViewById(R.id.bottom_view);
         //查找插件中的BottomMusicView
         Context pluginContext = RePlugin.fetchContext(AudioPluginConfig.PLUGIN_NAME);
         if (pluginContext != null) {
@@ -224,10 +243,30 @@ public class HomeActivity extends PluginBaseActivity implements View.OnClickList
         unRegisterUserReceiver();
     }
 
+    private static final int REQUEST_QR_CODE = 0x00;
+
 
     @Override
     public void doCameraPermission() {
-        ARouter.getInstance().build(Constant.Router.ROUTER_CAPTURE_ACTIVIYT).navigation();
+        Intent intent = RePlugin.createIntent("lib_qrcode", "com.lib_qrcode.zxing.app.CaptureActivity");
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        RePlugin.startActivityForResult(this, intent, REQUEST_QR_CODE);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode) {
+            case REQUEST_QR_CODE:
+                if (requestCode == RESULT_OK && data != null) {
+                    String result = data.getStringExtra("SCAN_RESULT");
+                    if (!TextUtils.isEmpty(result)) {
+                        Toast.makeText(this, result, Toast.LENGTH_LONG).show();
+                    }
+                }
+                break;
+            default:
+        }
     }
 
     private void goToMusic() {
@@ -235,10 +274,11 @@ public class HomeActivity extends PluginBaseActivity implements View.OnClickList
     }
 
     private void gotoWebView(String url) {
-        ARouter.getInstance()
-                .build(Constant.Router.ROUTER_WEB_ACTIVIYT)
-                .withString("url", url)
-                .navigation();
+        Intent intent = RePlugin.createIntent(WebViewPluginConfig.PLUGIN_NAME,
+                WebViewPluginConfig.PAGE.PAGE_WEBVIEW);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra(WebViewPluginConfig.ACTION.KEY_URL, "https://www.imooc.com");
+        RePlugin.startActivity(HomeActivity.this, intent);
     }
 
     //启动检查更新
@@ -306,6 +346,7 @@ public class HomeActivity extends PluginBaseActivity implements View.OnClickList
                 requestPermission(Constant.WRITE_READ_EXTERNAL_CODE,
                         Constant.WRITE_READ_EXTERNAL_PERMISSION);
             }
+
         } else if (id == R.id.check_update_view) {
             checkUpdate();
         }
@@ -352,5 +393,39 @@ public class HomeActivity extends PluginBaseActivity implements View.OnClickList
                 updateLoginUI(intent.getStringExtra(LoginPluginConfig.ACTION.KEY_DATA));
             }
         }
+    }
+
+    @SuppressLint("CheckResult")
+    @Override
+    public void doSDCardPermission() {
+        //加载外置插件，网页跳转
+        PluginManager.getInstance()
+                .loadPlugin(WebViewPluginConfig.PLUGIN_NAME)
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new Consumer<PluginInfo>() {
+                    @Override
+                    public void accept(PluginInfo pluginInfo) throws Exception {
+                        //跳转逻辑
+                        gotoWebview();
+                    }
+                }, new Consumer<Throwable>() {
+                    @Override
+                    public void accept(Throwable throwable) throws Exception {
+                        if (PluginManager.getInstance().getPluginInfo(WebViewPluginConfig.PLUGIN_NAME)
+                                != null) {
+                            gotoWebview();
+                        } else {
+                            if (throwable != null) Log.e(TAG, throwable.getMessage());
+                        }
+                    }
+                });
+    }
+
+    private void gotoWebview() {
+        Intent intent = RePlugin.createIntent(WebViewPluginConfig.PLUGIN_NAME,
+                WebViewPluginConfig.PAGE.PAGE_WEBVIEW);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra(WebViewPluginConfig.ACTION.KEY_URL, "https://www.baidu.com");
+        RePlugin.startActivity(HomeActivity.this, intent);
     }
 }
